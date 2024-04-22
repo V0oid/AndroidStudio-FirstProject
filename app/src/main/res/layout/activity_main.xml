@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/login_custom_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/baseline_account_circle_24"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_croner"
+            android:hint="Email"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_croner"
+            android:hint="Password"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:backgroundTint="@color/white"
+            android:textColor="#11998E"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_margin="16dp"
+                    android:src="@drawable/google"
+                    android:id="@+id/google_btn"
+                    />
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="16dp"
+                    android:src="@drawable/meta"
+                    android:id="@+id/meta_btn"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
