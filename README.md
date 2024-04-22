@@ -105,7 +105,7 @@ fun LoginScreen() {
             ) {
                 // Google Icon
                 Icon(
-                    painter = painterResource(id = R.drawable.google),  // Replace with your resource ID
+                    painter = painterResource(id = R.drawable.google),  
                     contentDescription = "Google",
                     modifier = Modifier
                         .size(44.dp)
@@ -115,7 +115,7 @@ fun LoginScreen() {
 
                 // Meta/Facebook Icon
                 Icon(
-                    painter = painterResource(id = R.drawable.meta),  // Replace with your resource ID
+                    painter = painterResource(id = R.drawable.meta),  
                     contentDescription = "Meta",
                     modifier = Modifier
                         .size(48.dp)
